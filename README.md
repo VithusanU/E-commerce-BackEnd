@@ -50,7 +50,25 @@ After this you can fire up the server and go to insomnia to check different CRUD
 
 
 ## Usage
-
+### To start the application:
+    npm run start
+### or with nodemon:
+    npm run watch
+    
+### API Endpoints
+### All Products: 
+        GET http://localhost:3001/
+### Product by ID: 
+        GET http://localhost:3001/:id
+### Add Product: 
+        POST http://localhost:3001/
+### json
+        {
+            "product_name": "Sample",
+            "price": 19.99,
+            "stock": 100,
+            "tagIds": [1, 2]
+        }
 
 
 ## License
